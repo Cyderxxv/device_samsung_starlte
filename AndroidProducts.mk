@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The ArrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_starlte.mk
+    $(LOCAL_DIR)/arrow_starlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_starlte-eng \
-    lineage_starlte-user \
-    lineage_starlte-userdebug
+    arrow_starlte-eng \
+    arrow_starlte-user \
+    arrow_starlte-userdebug
